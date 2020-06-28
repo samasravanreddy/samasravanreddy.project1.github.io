@@ -1,0 +1,443 @@
+/*------------------------
+       basic-setup
+-------------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/*----------------------------
+         header
+-----------------------------*/
+header {
+    width: 100%;
+    background-color: #222;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 0 15px #ff8000;
+}
+
+.heading-div {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+}
+
+.heading-div h1 {
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+}
+
+.heading-div h1 span {
+    font-size: 35px;
+    color: #ff8000;
+}
+
+.nav-menu a {
+    color: #ff8000;
+    padding: 10px 20px;
+    margin-right: 5px;
+    text-transform: uppercase;
+}
+
+.nav-menu a:hover {
+    color: #fff;
+    background-color: #ff8000;
+}
+/*----------------------------
+        handburger-menu
+----------------------------*/
+.handburger-menu {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: none;
+}
+.handburger {
+    width: 30px;
+    height: 3px;
+    background-color: #ff8000;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+/*------------------------------
+    backgroundimg-section
+------------------------------*/
+.background {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(cars/img3-min.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centered-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centered-elements h1 {
+    margin-top: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.centered-elements h1 span {
+    color: #ff8000;
+}
+
+.centered-buttons {
+    padding: 20px;
+}
+
+.centered-buttons button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    ;
+    margin: 10px;
+    color: #ff8000;
+    background-color: #000;
+    transition: al .5s;
+}
+
+.centered-buttons button:hover {
+    background-color: #ff8000;
+    color: #fff;
+}
+
+/*----------------------
+      about-section
+-----------------------*/
+.about-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+}
+
+.about-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ccc;
+    width: 75%;
+    box-shadow: 1px 15px 35px #000;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.left-about h2 
+.left-about p {
+    width: 70%;
+    margin: auto;
+    letter-spacing: 2px;
+}
+
+.left-about h2 {
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.left-about p {
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.left-about h2 span {
+    color: #ff8000;
+}
+
+.right-about img {
+    width: 80%;
+    height: 60vh;
+    padding-left: 90px;
+}
+
+/*-------------------
+      offers-section
+--------------------*/
+.offers-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.offers-heading h2 {
+    padding-top: 60px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 65px;
+}
+
+.offers-heading h2 span {
+    color: #ff8000;
+    font-size: 80px;
+}
+
+.offers-section .pricing {
+    width: 20%;
+    background-color: #222;
+    height: 60%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 15px 35px #000;
+    cursor: pointer;
+}
+
+.offers-section .pricing:hover {
+    box-shadow: 1px 25px 55px #ff8000;
+}
+
+.offers-section .pricing:nth-child(2) {
+    background-color: #ff8000;
+    margin-top: -50px;
+}
+
+.offers-section .pricing h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.offers-section .pricing p {
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+}
+
+.offers-section .pricing p:last-child {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.offers-section .pricing p span {
+    font-size: 30px;
+    vertical-align: text-top;
+    color: #ff8000;
+}
+
+.offers-section .pricing:nth-child(2) p:last-child span {
+    color: #222;
+}
+
+/*-------------------------
+       gallery-section
+--------------------------*/
+.gallery-section {
+    background-color: #ff8000;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h3 {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+
+.cars-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin-top: 70px;
+    padding: 10px;
+}
+
+.cars-gallery img {
+    width: 24%;
+    height: 250px;
+    padding: 10px;
+}
+
+/*------------------------
+       contact-section
+--------------------------*/
+.contact-section {
+    height: 100vh;
+    display: flex;
+    background-color: #222;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    display: flex;
+    width: 70%;
+    height: 80%;
+    background-color: #fff;
+    box-shadow: 1px 15px 35px #000;
+}
+
+.contact-left {
+    flex: 1;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.contact-left > p {
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 80px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.contact-info i {
+    padding: 15px;
+    font-size: 27px;
+}
+
+.contact-info p {
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.contact-right {
+    flex: 1;
+    background-color: #ff8000;
+}
+
+.contact-right form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.contact-right form input {
+    width: 80%;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 25px;
+    color: #fff;
+}
+
+.contact-right form input::placeholder,
+.contact-right form textarea::placeholder {
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.contact-right form input:focus,
+.contact-right form textarea:focus {
+    outline: none;
+}
+
+.contact-right form textarea {
+    background-color: transparent;
+    width: 80%;
+    resize: none;
+    height: 200px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 25px;
+    color: #fff;
+}
+
+.contact-right button {
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 20px;
+    transition: all .5s ease;
+}
+
+.contact-right button:hover {
+    background-color: #222;
+    border-radius: 2px solid #222;
+}
+
+/*------------------------
+        footer
+-------------------------*/
+.footer-work P {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #ff8000;
+    color: #fff;
+    padding: 20px;
+}

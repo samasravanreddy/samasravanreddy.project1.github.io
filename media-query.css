@@ -1,0 +1,231 @@
+@media all and (max-width: 1200px) {
+    .contact-section {
+        height: auto;
+        padding: 50px 0;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 1100px) {
+    .offers-section .pricing h3 {
+        font-size: 25px;
+    }
+    .offers-section .pricing p {
+        font-size: 15px;
+    }
+    .offers-section .pricing p:last-child {
+        font-size: 60px;
+    }
+    .right-about img {
+        width: 90%;
+    }
+}
+@media all and (max-width: 920px) {
+    .left-about p {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .right-about img {
+        width: 100%;
+        height: 80%;
+    }
+}
+@media all and (max-width: 815px) {
+    .nav-menu a {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .centered-elements h1 {
+        font-size: 30px;
+        margin-top: 350px;
+    }
+    .about-content {
+        width: 90%;
+        height: 90%;
+        flex-direction: column;
+    }
+    .right-about img {
+        width: 80%;
+        height: 400px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .left-about p {
+        line-height: 20px;
+    }
+    .left-about h2 {
+        font-size: 25px;
+    }
+    .offers-section .pricing {
+        width: 28%;
+    }
+    .cars-gallery img {
+        width: 49%;
+    }
+}
+@media all and (max-width: 815px) {
+    .heading-div h1 {
+        font-size: 20px;
+    }
+    .heading-div h1 span {
+        font-size: 30px;
+    }
+    .nav-menu a {
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 630px) {
+    .right-about img {
+        height: 370px;
+    }
+}
+@media all and (max-width: 650px) {
+    .offers-section {
+        padding-left: 0;
+    }
+    .offers-heading h2{
+        font-size: 40px;
+    }
+    .offers-heading h2 span {
+        font-size: 50px;
+    }
+    .pricing h3 {
+        font-size: 25px;
+    }
+    .pricing p {
+        font-size: 16px;
+    }
+    .pricing p:last-child {
+        font-size: 50px;
+    }
+    .pricing p span {
+        font-size: 20px;
+    }
+}
+@media all and (max-width: 500px) {
+    .heading-div {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .nav-menu a {
+        font-size: 15px;
+    }
+    .heading-div h1 {
+        font-size: 25px;
+    }
+    .heading-div h1 span {
+        font-size: 35px;
+    }
+    .centered-elements h1 {
+        font-size: 22px;
+    }
+    .centered-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .right-about img {
+        height: 300px;
+        width: 100%;
+        padding-right: 120px;
+    }
+    .cars-gallery img {
+        width: 100%;
+    }
+    .contact-container {
+        width: 90%;
+    }
+    .contact-section {
+        padding-left: 0;
+    }
+    .contact-left {
+        padding: 20px;
+    }
+    .contact-left>p {
+        margin-bottom: 40px;
+    }
+    .contact-info {
+        margin: 10px;
+    }
+    .offers-section {
+        height: auto;
+        padding: 50px 0;
+    }
+    .offers {
+        flex-direction: column;
+    }
+    .offers-section .pricing {
+        width: 60%;
+        margin: 30px 0;
+    }
+    .offers-section .pricing:nth-child(2) {
+        margin-top: 30px;
+    }
+    .offers-heading h2 {
+        padding: 0px;
+    }
+}
+@media all and (max-width: 480px) {
+    .centered-elements h1 {
+        font-size: 18px;
+    }
+    .right-about img {
+        width: auto;
+        height: 200px;
+    }
+    .offers-section h2 {
+        margin-top: 0;
+    }
+    .offers-section .pricing {
+        width: 70%;
+    }
+    .contact-info p {
+        letter-spacing: 0;
+        line-height: 20px;
+    }
+    .contact-info i {
+        padding: 10px;
+        font-size: 25px;
+    }
+    .contact-left {
+        padding: 10px;
+    }
+    .nav-menu{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .nav-menu a {
+        font-size: 24px;
+        margin: 20px;
+    }
+    .handburger-menu {
+        display: inline;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
